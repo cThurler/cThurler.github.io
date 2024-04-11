@@ -12,7 +12,7 @@
 }
 
 /* ------------------ */
-/*         CORES
+/*          CORES
 Cinza claro - rgb(61, 61, 61)
 Cinza escuro - rgb(46, 46, 46)
 /* ------------------ */
@@ -21,6 +21,10 @@ Cinza escuro - rgb(46, 46, 46)
 /*                     */
 /* ------------------- */
 
+/*                     */
+/*BODY, HEADER E FOOTER*/
+/*                     */
+/* ------------------- */
 *{
 
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -30,6 +34,7 @@ body{
   margin: 0;
   background-color: rgb(61, 61, 61);
   color: white;
+  min-height: 1400px;
   min-height: 1400px;
 }
 
@@ -43,6 +48,7 @@ header, footer{
   padding: 10px;
   border-bottom: 10px;
 }
+
 
 
 header > div > h1{
@@ -65,6 +71,13 @@ footer{
   height: 50px;
 }
 
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
 /* MAIN START */
 /* block card section */
 
@@ -75,6 +88,7 @@ footer{
   padding-top: 1%;
   padding-bottom: 1%;
   max-width: 1000px;
+  max-width: 1000px;
 
   border: 0;
   border-top: 5px;
@@ -82,6 +96,72 @@ footer{
   border-style:solid;
 }
 
+.block-1 > div > h1{
+  margin-top: 0;
+}
+
+.block-text{
+  width: 75%;
+}
+
+.blocks{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.block-img{
+  min-width: 500px;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+.footer-flex-box{
+  justify-content: space-around;
+}
+
+.footer-item{
+  color: ghostwhite;
+  font-size: xx-small;
+}
+
+
+
+/*
+AJUSTAR IMAGEM EXEMPLO:
+.img-2{
+  object-position: 0% 80%;
+}
+
+*/
+
+#pexels-link{
+  padding: 0;
+  margin: 0;
+  display: inline;
+  background-color: transparent;
+  text-decoration: underlinegit ;
+}
+
+a:link, a:visited {
+
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: black;
 .block-1 > div > h1{
   margin-top: 0;
 }
