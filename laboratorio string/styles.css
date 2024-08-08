@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.highlighted {
+    background-color: yellow;
+}
+#inputTexto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 150px;
+    width: 250px;
+}

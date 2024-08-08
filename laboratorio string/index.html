@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Insira um texto abaixo</h1>
+    <div id="inputTexto" contenteditable="true"></div>
+    <button id="botaoExaminar">Examinar</button>
+    <div id="resultadoTexto"></div>
+    <div id="containerBuscar">
+        <p>O primeiro botão e campo abaixo realça o texto digitado acima, <br> o segundo botão substitui o valor do primeiro campo pelo segundo no texto inserido</p>
+        <textarea name="inputRealcar" id="inputRealcar"></textarea>
+        <textarea name="inputSubstituir" id="inputSubstituir"></textarea>
+        <button id="botaoRealcar">Realçar</button>
+        <button id="botaoSubstituir">Substituir</button>
+    </div>
+    <div id="textoRealcado"></div>
+    <script src="main.js" defer></script>
+</body>
+</html>
