@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<script src="./js/jquery.min.js" defer></script>
+	<script src="./js/atividade02.js" defer></script>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <style>
+        img{
+            max-width: 260px;
+            max-height: 168px;
+        }
+        #nota{
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+        }
+    </style>
+</head>
+<body>
+	<div class="container">
+        <nav>
+            <h3> Atividades</h3>
+            <ul>
+				<li><a href="index.html">Início</a></li>
+                <li><a href="atividade01.html">01. Livraria</a></li>
+                <li><a href="atividade02.html">02. Cafeteria</a></li>
+                <li><a href="atividade03.html">03. Receitas</a></li>
+                <li><a href="atividade04.html">04. CEP</a></li>
+                <li></li>
+				<li><a href="../../index.html">Portfolio Inicial</a></li>
+            </ul>
+        </nav>
+        <div class="content" class="contentAT02">
+            <h1>Cafeteria</h1>
+            <p>
+                Nesta atividade, trabalharemos a manipulação do DOM utilizando Javascript/JQuery. 
+            </p>
+            <p>
+                Sua tarefa é desenvolver um cardápio eletrônico. Os itens de menu devem ser carregados dinamicamente a partir de uma lista. A intenção é facilitar a organização e atualização do menu. Por questões de simplificação, o menu deve ser carregado a partir do array dado no script atividade02.js.
+            </p>
+            <p>
+                <div id="nota">
+                    <h3>Nota - Caio Thurler :</h3>
+                    <p>Clique nas imagens para adicionar à lista de pedidos.</p>
+                </div>
+            </p>
+            <ul class="flexAT02" id="cardapio">
+                <!-- 
+                    seu código deve carregar dinamicamente os itens de menu disponíveis no 
+                    array cardápio 
+                -->
+            </ul>
+            <h2>Pedidos</h2>
+            <ul class="flexAT02" id="pedidos">
+                <!-- 
+                    quando o usuário clicar em um item de menu, ele deve ser incluído na lista de 
+                    pedidos e o valor total deve ser recalculado 
+                -->
+            </ul>
+            <h2 id="valorTotal">Total - 0</h2>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+</html>
