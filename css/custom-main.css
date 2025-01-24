@@ -1,0 +1,19 @@
+.w-100 {
+    width: 100% !important;
+    height: 45vh;
+}
+
+img {
+    object-fit: cover;
+}
+
+.copyToClipboard-btn{
+    cursor: pointer;
+}
+.nav-item>a{
+    text-decoration: underline;
+}
+.custom-canto-mar{
+    width:fit-content; 
+    text-wrap: nowrap;
+}
